@@ -1,0 +1,58 @@
+{
+  "name": "Aditya Player",
+  "description": "An Advanced Superfast & High Quality VC Music Player For Telegram.",
+  "keywords": ["music", "musicplayer", "voicechat", "telegram"],
+  "repository": "https://github.com/AdityaHalder/MusicPlayer",
+  "stack": "container",
+  "env": {
+    "API_ID": {
+      "description": "Your App ID",
+      "required": true
+    },
+    "API_HASH": {
+      "description": "Your Api Hash",
+      "required": true
+    },
+    "BOT_OWNER": {
+      "description": "Owner Username Without «@» «Ex:- AdityaHalder»",
+      "required": true
+      "value": "AdityaHalder"
+    },
+    "BOT_USERNAME": {
+      "description": "Bot Username Without «@» «Ex:- MusicRobot",
+      "required": true
+    },
+    "BOT_TOKEN": {
+      "description": "Your Bot Token",
+      "required": true
+    },
+    "BG_IMAGE": {
+      "description": "Custom Thumbnail (Optional)",
+      "required": true
+    },
+    "DURATION_LIMIT": {
+      "description": "Max Duration Limit For Music (minutes).",
+      "required": true
+      "value": "10"
+    },
+    "STRING_SESSION": {
+      "description": "Pyrogram String Session",
+      "required": true
+    },
+    "SUPPORT_GROUP": {
+      "description": "Group Username Without «@» «Ex:- AdityaDiscus",
+      "required": true
+      "value": "AdityaDiscus"
+    },
+    "UPDATES_CHANNEL": {
+      "description": "Channel Username Without «@» «Ex:- AdityaServer",
+      "required": true
+      "value": "AdityaServer"
+    },
+    "SUDO_USERS": {
+      "description": "List Of User IDs Counted As Admin Everywhere (separated by space).",
+      "required": true
+    }
+    
+  }
+}
