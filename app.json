@@ -1,8 +1,13 @@
 {
-  "name": "Aditya Player",
+  "name": "Music Player",
   "description": "An Advanced Superfast & High Quality VC Music Player For Telegram.",
-  "keywords": ["music", "musicplayer", "voicechat", "telegram"],
+  "keywords": [
+    "MusicPlayer",
+    "TelgramVCMusic",
+    "TelegramMusicBot"
+  ],
   "repository": "https://github.com/AdityaHalder/MusicPlayer",
+  "logo": "https://telegra.ph/file/23178ce3126fedae81036.png"
   "stack": "container",
   "env": {
     "API_ID": {
@@ -14,12 +19,12 @@
       "required": true
     },
     "BOT_OWNER": {
-      "description": "Owner Username Without «@» «Ex:- AdityaHalder»",
+      "description": "Owner Username Without @ Ex:- AdityaHalder",
       "required": true
       "value": "AdityaHalder"
     },
     "BOT_USERNAME": {
-      "description": "Bot Username Without «@» «Ex:- MusicRobot",
+      "description": "Bot Username Without @ Ex:- MusicRobot",
       "required": true
     },
     "BOT_TOKEN": {
@@ -40,12 +45,12 @@
       "required": true
     },
     "SUPPORT_GROUP": {
-      "description": "Group Username Without «@» «Ex:- AdityaDiscus",
+      "description": "Group Username Without @ Ex:- AdityaDiscus",
       "required": true
       "value": "AdityaDiscus"
     },
     "UPDATES_CHANNEL": {
-      "description": "Channel Username Without «@» «Ex:- AdityaServer",
+      "description": "Channel Username Without @ Ex:- AdityaServer",
       "required": true
       "value": "AdityaServer"
     },
@@ -53,6 +58,5 @@
       "description": "List Of User IDs Counted As Admin Everywhere (separated by space).",
       "required": true
     }
-    
   }
-}
+ }
