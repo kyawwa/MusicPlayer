@@ -4,12 +4,7 @@
   "description": "An Advanced Superfast & High Quality VC Music Player For Telegram",
   "keywords": ["music", "voicechat", "telegram"],
   "repository": "https://github.com/AdityaHalder/MusicPlayer",
-  "stack": "container",
-  "buildpacks": [
-   {
-     "url": "https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest"
-   }   
-  ],        
+  "stack": "container",     
   "env": {
     "API_ID": {
       "description": "Your App ID [Get it From @BotFather].",
@@ -39,7 +34,7 @@
     },
     "DURATION_LIMIT": {
       "description": "Duration Limit For Song Play. [Default - 10 Minutes].",
-      "required": true
+      "required": true,
       "value": "10"
     },
     "STRING_SESSION": {
@@ -57,7 +52,7 @@
       "value": "AdityaServer"
     },     
     "SUDO_USERS": {
-      "description": "Updates Channel without @ [Leave this if you don't have one].",
+      "description": "Give User ID Separated By Space",
       "required": true
     }
   }
