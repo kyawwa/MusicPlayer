@@ -54,7 +54,6 @@
     "SUDO_USERS": {
       "description": "Give User ID Separated By Space",
       "required": false
-      "value": "1773825593"
       
     }
   }
